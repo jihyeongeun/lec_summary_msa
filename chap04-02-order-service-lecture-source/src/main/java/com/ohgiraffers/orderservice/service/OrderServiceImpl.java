@@ -36,6 +36,8 @@ public class OrderServiceImpl implements OrderService{
             OrderDTO orderDTO = new OrderDTO();
             orderDTO.setOrderDate(order.getOrderDate());
             orderDTO.setOrderTime(order.getOrderTime());
+            // orderDTO.setOrderTime(order.getOrderTime());
+            
 
             List<OrderMenu> orderMenuList = order.getOrderMenus();
             List<OrderMenuDTO> orderMenuDTOList = new ArrayList<>();
