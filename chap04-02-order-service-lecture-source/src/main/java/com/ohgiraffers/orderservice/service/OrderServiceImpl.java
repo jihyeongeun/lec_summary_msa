@@ -55,7 +55,6 @@ public class OrderServiceImpl implements OrderService{
             orderDTO.setTotalOrderPrice(order.getTotalOrderPrice());
             orderDTOList.add(orderDTO);
         }
-
         return orderDTOList;
     }
 
